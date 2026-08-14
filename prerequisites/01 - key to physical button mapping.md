@@ -114,9 +114,9 @@ physical knob always lands on the same in-game state.
 | R6C6 | NEW button 2 | Infomaint display mode | tap on press (momentary recommended) |
 
 NOTE: these two positions need physical switches that are NOT in the
-original inventory. If the radio encoder has a push-to-click, we can
-reshuffle (push = pause/play, move Next Favourite here instead) — say
-the word and I will re-map.
+original inventory. DECIDED: user will buy 2 extra momentary push buttons
+for R6C5/R6C6. If the radio encoder turns out to have a push-to-click,
+we can reshuffle later (push = pause/play, move Next Favourite here).
 
 ---
 
