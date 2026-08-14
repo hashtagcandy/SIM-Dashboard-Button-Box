@@ -16,7 +16,7 @@ Controls menu before finalizing (column "Key" = suggested default only).
 | B | Toggle switch (on/off) | 6 | stays in position |
 | C | Push/pull switch | 2 | pull = on, push = off |
 | D | Rocker switch | 3 | spring back to center, 2 directions (only 2 used) |
-| E | Latching push button | 3 | stays in when pressed |
+| E | Latching push button | 3 | stays in when pressed; used as momentary-style (one tap per press) |
 | F | Momentary push button | 5 + 2 NEW | returns when released |
 | G | Ignition key switch | 1 | OFF / ACC / ON (+START if present) |
 | H | Radio knob / encoder (EC11 with push) | 1 | rotate CW/CCW + push |
@@ -69,25 +69,28 @@ cruise knob below.
 | R3C1 | Push/pull 1 | Parking Brake | SPACE | yes |
 | R3C2 | Push/pull 2 | Trailer Brake | 7 | yes |
 
-### Latching push (3) — one tap per state change
+### Momentary (9 used of 10) — one tap per press
 
-| Matrix | Control | ETS2 function | Suggested key | Verify |
-|---|---|---|---|---|
-| R3C3 | Latching 1 | Trailer Attach / Detach | T | yes |
-| R3C4 | Latching 2 | Dashboard Display Mode | I | yes |
-| R3C5 | Latching 3 | Audio Player Previous Favourite | N | yes |
-
-### Momentary (5 + 2 NEW) — hold while pressed
+All momentary-style: press = one tap of the key. Functions that ETS2
+treats as "press to toggle/cycle" fit this perfectly.
 
 | Matrix | Control | ETS2 function | Suggested key | Verify |
 |---|---|---|---|---|
 | R3C6 | Momentary 1 | Horn | H | yes |
 | R4C1 | Momentary 2 | Air Horn | V | yes |
 | R4C2 | Momentary 3 | Light Horn | B | yes |
-| R4C3 | Momentary 4 | Activate | ENTER | yes |
-| R4C4 | Momentary 5 | Audio Player Next Favourite | N | yes |
-| R6C5 | NEW button 1 | Audio Player Previous | P | yes |
-| R6C6 | NEW button 2 | Infomaint display mode | I | yes |
+| R4C3 | Momentary 4 | Dashboard Display Mode | I | yes |
+| R4C4 | Momentary 5 | Activate | ENTER | yes |
+| R3C3 | Momentary 6 | Trailer Attach / Detach | T | yes |
+| R3C4 | Momentary 7 | Audio Player Next | N | yes |
+| R3C5 | Momentary 8 | Audio Player Previous | P | yes |
+| R6C5 | Momentary 9 | Infomaint display mode | I | yes |
+| R6C6 | Momentary 10 | (spare) | - | - |
+
+NOTE: Momentary 6/7/8 use the physical buttons originally bought as
+"latching" — they are simply treated as momentary-style in firmware
+(one tap per press, ignore the latching state). No extra purchases
+beyond the 2 new buttons.
 
 ### Rockers (2 of 3 used) — hold while pressed
 
@@ -151,19 +154,19 @@ All 31 keys.txt functions are covered:
 - Cruise Control ......................... Toggle 6
 - Cruise Control Speed Increase .......... Cruise knob CW
 - Cruise Control Speed Decrease .......... Cruise knob CCW
-- Dashboard Display Mode ................. Latching 2
+- Dashboard Display Mode ................. Momentary 4
 - Open Right Window ...................... Rocker 2 up
 - Close Right Window ..................... Rocker 2 down
 - Open Left Window ....................... Rocker 1 up
 - Close Left Window ...................... Rocker 1 down
-- Activate ............................... Momentary 4
-- Trailer Attach / Detach ................ Latching 1
+- Activate ............................... Momentary 5
+- Trailer Attach / Detach ................ Momentary 6
 - Audio Player Volume Up ................. Radio knob CW
 - Audio Player Volume Down ............... Radio knob CCW
-- Audio Player Next ...................... Momentary 5
-- Audio Player Previous .................. NEW button 1
+- Audio Player Next ...................... Momentary 7
+- Audio Player Previous .................. Momentary 8
 - Audio Player pause/play ................ Radio knob push
-- Infomaint display mode ................. NEW button 2
+- Infomaint display mode ................. Momentary 9
 
 ---
 
@@ -181,7 +184,7 @@ All 31 keys.txt functions are covered:
 |                                                          |
 | [WIN L UP/DN]  [WIN R UP/DN]   [CRUISE KNOB]            |
 |                                                          |
-| [TRAILER ATT] [DASH MODE] [AUD PREV]  <- latching       |
+| [TRAILER ATT] [DASH MODE] [AUD PREV]  <- momentary       |
 |                                                          |
 | [RADIO KNOB]            [AUD PREV NEW][INFO NEW]         |
 +----------------------------------------------------------+
@@ -202,6 +205,8 @@ need to be re-rendered with a cruise knob once the layout is chosen.
 5. Does the wiper selector have a spring-back "negative" position for
    Wipers Back? If not, Wipers Back needs its own momentary button
    (would push the matrix over 36 — need to free a position or add one).
-6. Cruise knob — does it have a push? (optional Cruise Resume)
-7. Confirm: 2 extra momentary buttons to buy (R6C5, R6C6). If the radio
-   knob has no push, one more button is needed for pause/play.
+6. Cruise knob — if it has a push, there is no free matrix position for
+   it (matrix is 36/36). Skip the push or swap something out.
+7. Confirm: 2 extra momentary buttons to buy (R6C5 = Momentary 9
+   Infomaint, R6C6 = Momentary 10 spare). If the radio knob has no push,
+   one more button is needed for pause/play.

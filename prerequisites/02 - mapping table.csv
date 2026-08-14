@@ -13,14 +13,14 @@ R2C5,Toggle 5,Lift / Drop Axle,one tap per state change,J,yes
 R2C6,Toggle 6,Cruise Control,one tap per state change,C,yes
 R3C1,Push/pull 1,Parking Brake,one tap per state change,SPACE,yes
 R3C2,Push/pull 2,Trailer Brake,one tap per state change,7,yes
-R3C3,Latching 1,Trailer Attach / Detach,one tap per state change,T,yes
-R3C4,Latching 2,Dashboard Display Mode,one tap per state change,I,yes
-R3C5,Latching 3,Audio Player Previous Favourite,one tap per state change,N,yes
+R3C3,Momentary 6 (latching body),Trailer Attach / Detach,one tap per press,T,yes
+R3C4,Momentary 7 (latching body),Audio Player Next,one tap per press,N,yes
+R3C5,Momentary 8 (latching body),Audio Player Previous,one tap per press,P,yes
 R3C6,Momentary 1,Horn,hold while pressed,H,yes
 R4C1,Momentary 2,Air Horn,hold while pressed,V,yes
 R4C2,Momentary 3,Light Horn,hold while pressed,B,yes
-R4C3,Momentary 4,Activate,hold while pressed,ENTER,yes
-R4C4,Momentary 5,Audio Player Next Favourite,hold while pressed,N,yes
+R4C3,Momentary 4,Dashboard Display Mode,one tap per press,I,yes
+R4C4,Momentary 5,Activate,one tap per press,ENTER,yes
 R4C5,Rocker 1 up,Open Left Window,hold while pressed,Q,yes
 R4C6,Rocker 1 down,Close Left Window,hold while pressed,A,yes
 R5C1,Rocker 2 up,Open Right Window,hold while pressed,W,yes
@@ -33,5 +33,5 @@ R6C1,Ignition START,Engine crank (if present),momentary,E,yes
 R6C2,Radio knob CW,Audio Player Volume Up,one tap per detent,+,yes
 R6C3,Radio knob CCW,Audio Player Volume Down,one tap per detent,-,yes
 R6C4,Radio knob push,Audio Player pause/play,tap on press,SPACE,yes
-R6C5,NEW button 1,Audio Player Previous,one tap on press,N,yes
-R6C6,NEW button 2,Infomaint display mode,one tap on press,I,yes
+R6C5,Momentary 9 (NEW),Infomaint display mode,one tap per press,I,yes
+R6C6,Momentary 10 (NEW spare),(spare),-, -,no
