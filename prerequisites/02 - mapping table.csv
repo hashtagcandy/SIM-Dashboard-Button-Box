@@ -33,5 +33,5 @@ R6C1,Ignition START,Engine crank (if present),momentary,E,yes
 R6C2,Radio knob CW,Audio Player Volume Up,one tap per detent,+,yes
 R6C3,Radio knob CCW,Audio Player Volume Down,one tap per detent,-,yes
 R6C4,Radio knob push,Audio Player Next Favourite,tap on press,N,yes
-R6C5,SPARE,SPARE,SPARE,SPARE,SPARE
-R6C6,SPARE,SPARE,SPARE,SPARE,SPARE
+R6C5,NEW button 1,Audio Player pause/play,one tap on press,-,yes
+R6C6,NEW button 2,Infomaint display mode,one tap on press,-,yes

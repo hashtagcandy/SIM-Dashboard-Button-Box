@@ -106,12 +106,17 @@ physical knob always lands on the same in-game state.
 | R6C3 | Knob CCW | Audio Player Volume Down | one tap per detent |
 | R6C4 | Knob push | Audio Player Next Favourite | tap on press (if push exists) |
 
-### Spare
+### Spare (now assigned — needs 2 extra physical buttons)
 
 | Matrix | Control | ETS2 function | Behavior |
 |---|---|---|---|
-| R6C5 | spare | - | - |
-| R6C6 | spare | - | - |
+| R6C5 | NEW button 1 | Audio Player pause/play | tap on press (momentary recommended) |
+| R6C6 | NEW button 2 | Infomaint display mode | tap on press (momentary recommended) |
+
+NOTE: these two positions need physical switches that are NOT in the
+original inventory. If the radio encoder has a push-to-click, we can
+reshuffle (push = pause/play, move Next Favourite here instead) — say
+the word and I will re-map.
 
 ---
 
@@ -148,6 +153,8 @@ All 29 keys.txt functions are covered:
 - Audio Player Volume Down ............... Knob CCW
 - Audio Player Next Favourite ............ Knob push
 - Audio Player Previous Favourite ........ Latching 3
+- Audio Player pause/play ................ NEW button 1 (R6C5)
+- Infomaint display mode ................. NEW button 2 (R6C6)
 
 ---
 
@@ -181,3 +188,6 @@ All 29 keys.txt functions are covered:
    advanced controls.sii bindings instead?
 4. Final keys must be verified against the actual ETS2 Controls menu.
 5. Do you want AUX as an extra function on one of the spare positions?
+6. NEW: The two new functions (Audio pause/play, Infomaint display mode)
+   need 2 extra physical buttons. Do you have spares, or should the radio
+   knob push take one of them?

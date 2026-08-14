@@ -25,5 +25,7 @@ Activate
 Trailer Attach / Detach
 Audio Player Volume Up
 Audio Player Volume Down
-Audio Player Next Favourite
-Audio Player Previous Favourite
+Audio Player next
+Audio Player Previous
+audio pause play
+Infomaint display mode
