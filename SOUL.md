@@ -116,7 +116,9 @@ The firmware scans one row at a time and reads the columns.
 
 A bare switch matrix can suffer from ghosting/masking when multiple switches are pressed simultaneously. This may matter in a sim panel where several controls can be active.
 
-If ghosting occurs, add **one diode per matrix switch** (commonly 1N4148) and implement diode-aware scanning. Do not assume a bare matrix is automatically ghost-free.
+If ghosting occurs, add one diode per matrix switch (commonly 1N4148) and implement diode-aware scanning. Do not assume a bare matrix is automatically ghost-free.
+
+DECISION (recorded): initial build will use a bare matrix with NO diodes. The user does not expect to press many switches simultaneously. If ghosting appears in testing, add diodes later (one per switch, 36 max).
 
 ---
 

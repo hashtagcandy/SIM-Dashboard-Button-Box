@@ -39,7 +39,6 @@ Quantities are based on the mapping in `01 - key to physical button mapping.md`.
 | 1 | Encoder knob cap (6 mm D-shaft, if not included) | Fits cruise knob |
 | 23+ | Resistors 330 ohm (1/4 W) | One per LED; buy 50-pack, cheaper |
 | 10+ | Resistors 100-150 ohm (1/4 W) | For blue/white LEDs at 3.3 V if too dim |
-| 50 | 1N4148 signal diodes | Matrix ghosting protection, one per switch |
 | 3 | Ceramic capacitor 0.1 uF | Decoupling next to each 74HC595 |
 | 1 roll | Hookup wire, 22 AWG solid core | Matrix rows/columns, LEDs |
 | 1 roll | Hookup wire, 22 AWG stranded | Flexible runs, jumpers |
@@ -94,7 +93,6 @@ Optional electrical (only if needed):
 - [ ] 2x momentary push button
 - [ ] 50x 330 ohm resistors
 - [ ] 10x 100-150 ohm resistors (blue/white LEDs)
-- [ ] 50x 1N4148 diodes
 - [ ] 3x 0.1 uF capacitors
 - [ ] Wire: 22 AWG solid + stranded
 - [ ] Heat-shrink assortment
@@ -111,8 +109,8 @@ Optional electrical (only if needed):
 
 - The 330 ohm starting value is per SOUL.md. At 3.3 V, blue/white LEDs
   (3.0-3.3 V forward voltage) may be dim — keep the 100-150 ohm pack handy.
-- Diodes are optional for a bare matrix but strongly recommended once
-  multiple switches are pressed at once (ghosting). Buy them now, wire
-  them later.
-- All quantities assume one button box. Double the diode/resistor packs
+- Matrix diodes (1N4148, ghosting protection) are SKIPPED by decision —
+  the user does not expect to press many buttons simultaneously. If
+  ghosting ever shows up, add them later (one diode per switch, 36 max).
+- All quantities assume one button box. Double the resistor packs
   if you plan a second box later — bulk is cheaper.
