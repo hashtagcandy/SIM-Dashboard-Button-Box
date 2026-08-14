@@ -1,0 +1,29 @@
+Start / Stop Engine
+Start / Stop Engine Electricity
+Parking Brake
+Trailer Brake
+Lift / Drop Axle
+Differential Lock
+Hazard Warning
+Light Modes
+High Beam Headlights
+Beacon
+Horn
+Air Horn
+Light Horn
+Wipers
+Wipers Back
+Cruise Control
+Cruise Control Speed Increase
+Cruise Control Speed Decrease
+Dashboard Display Mode
+Open Right Window
+Close Right Window
+Open Left Window
+Close Left Window
+Activate
+Trailer Attach / Detach
+Audio Player Volume Up
+Audio Player Volume Down
+Audio Player Next Favourite
+Audio Player Previous Favourite

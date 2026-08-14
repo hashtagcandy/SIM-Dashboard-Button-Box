@@ -1,0 +1,37 @@
+Matrix,Physical Control,ETS2 Function,Behavior,Suggested Key,Verify in ETS2
+R1C1,Wiper selector pos 1,Wipers OFF,one tap per state change,P,yes
+R1C2,Wiper selector pos 2,Wipers NORMAL,one tap per state change,P,yes
+R1C3,Wiper selector pos 3,Wipers FAST,one tap per state change,P,yes
+R1C4,Light selector pos 1,Lights OFF,one tap per state change,L,yes
+R1C5,Light selector pos 2,Lights PARKING,one tap per state change,L,yes
+R1C6,Light selector pos 3,Lights LOW BEAM,one tap per state change,L,yes
+R2C1,Toggle 1,High Beam Headlights,one tap per state change,K,yes
+R2C2,Toggle 2,Beacon,one tap per state change,U,yes
+R2C3,Toggle 3,Hazard Warning,one tap per state change,F,yes
+R2C4,Toggle 4,Differential Lock,one tap per state change,D,yes
+R2C5,Toggle 5,Lift / Drop Axle,one tap per state change,J,yes
+R2C6,Toggle 6,Cruise Control,one tap per state change,C,yes
+R3C1,Push/pull 1,Parking Brake,one tap per state change,SPACE,yes
+R3C2,Push/pull 2,Trailer Brake,one tap per state change,7,yes
+R3C3,Latching 1,Trailer Attach / Detach,one tap per state change,T,yes
+R3C4,Latching 2,Dashboard Display Mode,one tap per state change,I,yes
+R3C5,Latching 3,Audio Player Previous Favourite,one tap per state change,N,yes
+R3C6,Momentary 1,Horn,hold while pressed,H,yes
+R4C1,Momentary 2,Air Horn,hold while pressed,V,yes
+R4C2,Momentary 3,Light Horn,hold while pressed,B,yes
+R4C3,Momentary 4,Activate,hold while pressed,ENTER,yes
+R4C4,Momentary 5,Wipers Back,hold while pressed,O,yes
+R4C5,Rocker 1 up,Open Left Window,hold while pressed,Q,yes
+R4C6,Rocker 1 down,Close Left Window,hold while pressed,A,yes
+R5C1,Rocker 2 up,Open Right Window,hold while pressed,W,yes
+R5C2,Rocker 2 down,Close Right Window,hold while pressed,S,yes
+R5C3,Rocker 3 up,Cruise Control Speed Increase,hold while pressed,=,yes
+R5C4,Rocker 3 down,Cruise Control Speed Decrease,hold while pressed,-,yes
+R5C5,Ignition ACC,Start / Stop Engine Electricity,one tap on entering ACC,E,yes
+R5C6,Ignition ON,Start / Stop Engine,one tap on entering ON,E,yes
+R6C1,Ignition START,Engine crank (if present),momentary,E,yes
+R6C2,Radio knob CW,Audio Player Volume Up,one tap per detent,+,yes
+R6C3,Radio knob CCW,Audio Player Volume Down,one tap per detent,-,yes
+R6C4,Radio knob push,Audio Player Next Favourite,tap on press,N,yes
+R6C5,SPARE,SPARE,SPARE,SPARE,SPARE
+R6C6,SPARE,SPARE,SPARE,SPARE,SPARE
