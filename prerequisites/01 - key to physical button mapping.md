@@ -1,6 +1,6 @@
 # ETS2 Button Box — Key to Physical Button Mapping
 
-Source file: `rough idea of keys.txt` (29 functions)
+Source file: `rough idea of keys.txt` (31 functions)
 Control names verified against: `ATS and ETS2 Key Bindings.xlsx`
 
 Status: PROPOSAL — nothing is soldered yet. Verify keys in the ETS2
@@ -15,13 +15,14 @@ Controls menu before finalizing (column "Key" = suggested default only).
 | A | 3-position rotary selector | 2 | Wiper + Lights (3 states each) |
 | B | Toggle switch (on/off) | 6 | stays in position |
 | C | Push/pull switch | 2 | pull = on, push = off |
-| D | Rocker switch | 3 | spring back to center, 2 directions |
+| D | Rocker switch | 3 | spring back to center, 2 directions (only 2 used) |
 | E | Latching push button | 3 | stays in when pressed |
-| F | Momentary push button | 5 | returns when released |
+| F | Momentary push button | 5 + 2 NEW | returns when released |
 | G | Ignition key switch | 1 | OFF / ACC / ON (+START if present) |
-| H | Radio knob / encoder | 1 | rotate CW/CCW + push if it clicks |
+| H | Radio knob / encoder (EC11 with push) | 1 | rotate CW/CCW + push |
+| I | Cruise knob / encoder (EC11) | 1 | rotate CW/CCW for cruise speed (+push optional) |
 
-Total matrix positions needed: 31 (of 36 available).
+Total matrix positions used: 36 of 36 (full matrix — no spares left).
 
 ---
 
@@ -43,6 +44,10 @@ state). Firmware must count taps: off->normal = 1 tap, off->fast = 2 taps,
 fast->off = 3 taps, etc. The box tracks the last known state, so the
 physical knob always lands on the same in-game state.
 
+WIPERS BACK: assigned to the wiper selector's spring-back "negative"
+position (if the selector has one). If it does not, Wipers Back needs its
+own momentary button — see open question 5.
+
 ### Toggles (6) — one tap per state change
 
 | Matrix | Control | ETS2 function | Suggested key | Verify |
@@ -53,6 +58,9 @@ physical knob always lands on the same in-game state.
 | R2C4 | Toggle 4 | Differential Lock | D | yes |
 | R2C5 | Toggle 5 | Lift / Drop Axle | J | yes |
 | R2C6 | Toggle 6 | Cruise Control | C | yes |
+
+Cruise Control is ON/OFF via Toggle 6. Speed is adjusted with the
+cruise knob below.
 
 ### Push/pull (2) — one tap per state change
 
@@ -69,7 +77,7 @@ physical knob always lands on the same in-game state.
 | R3C4 | Latching 2 | Dashboard Display Mode | I | yes |
 | R3C5 | Latching 3 | Audio Player Previous Favourite | N | yes |
 
-### Momentary (5) — hold while pressed
+### Momentary (5 + 2 NEW) — hold while pressed
 
 | Matrix | Control | ETS2 function | Suggested key | Verify |
 |---|---|---|---|---|
@@ -77,9 +85,11 @@ physical knob always lands on the same in-game state.
 | R4C1 | Momentary 2 | Air Horn | V | yes |
 | R4C2 | Momentary 3 | Light Horn | B | yes |
 | R4C3 | Momentary 4 | Activate | ENTER | yes |
-| R4C4 | Momentary 5 | Wipers Back | O | yes |
+| R4C4 | Momentary 5 | Audio Player Next Favourite | N | yes |
+| R6C5 | NEW button 1 | Audio Player Previous | P | yes |
+| R6C6 | NEW button 2 | Infomaint display mode | I | yes |
 
-### Rockers (3, 6 directions) — hold while pressed
+### Rockers (2 of 3 used) — hold while pressed
 
 | Matrix | Control | ETS2 function | Suggested key | Verify |
 |---|---|---|---|---|
@@ -87,8 +97,19 @@ physical knob always lands on the same in-game state.
 | R4C6 | Rocker 1 down | Close Left Window | A | yes |
 | R5C1 | Rocker 2 up | Open Right Window | W | yes |
 | R5C2 | Rocker 2 down | Close Right Window | S | yes |
-| R5C3 | Rocker 3 up | Cruise Speed Increase | = | yes |
-| R5C4 | Rocker 3 down | Cruise Speed Decrease | - | yes |
+
+Rocker 3 (R5C3/R5C4) is no longer used for cruise speed — replaced by
+the cruise knob. The rocker itself becomes a spare physical control.
+
+### Cruise knob (encoder) — like a second volume knob
+
+| Matrix | Control | ETS2 function | Behavior |
+|---|---|---|---|
+| R5C3 | Cruise knob CW | Cruise Control Speed Increase | one tap per detent |
+| R5C4 | Cruise knob CCW | Cruise Control Speed Decrease | one tap per detent |
+
+Optional: if the cruise knob also has a push, use it for Cruise Control
+Resume (position R5C3 or a spare if the matrix frees up).
 
 ### Ignition key (3 positions)
 
@@ -98,31 +119,19 @@ physical knob always lands on the same in-game state.
 | R5C6 | Key ON | Start / Stop Engine | tap on entering ON |
 | R6C1 | Key START | (engine crank, if present) | momentary |
 
-### Radio knob (encoder)
+### Radio knob (encoder with push)
 
 | Matrix | Control | ETS2 function | Behavior |
 |---|---|---|---|
 | R6C2 | Knob CW | Audio Player Volume Up | one tap per detent |
 | R6C3 | Knob CCW | Audio Player Volume Down | one tap per detent |
-| R6C4 | Knob push | Audio Player Next Favourite | tap on press (if push exists) |
-
-### Spare (now assigned — needs 2 extra physical buttons)
-
-| Matrix | Control | ETS2 function | Behavior |
-|---|---|---|---|
-| R6C5 | NEW button 1 | Audio Player pause/play | tap on press (momentary recommended) |
-| R6C6 | NEW button 2 | Infomaint display mode | tap on press (momentary recommended) |
-
-NOTE: these two positions need physical switches that are NOT in the
-original inventory. DECIDED: user will buy 2 extra momentary push buttons
-for R6C5/R6C6. If the radio encoder turns out to have a push-to-click,
-we can reshuffle later (push = pause/play, move Next Favourite here).
+| R6C4 | Knob push | Audio Player pause/play | tap on press (if push exists) |
 
 ---
 
 ## 3. Function coverage check
 
-All 29 keys.txt functions are covered:
+All 31 keys.txt functions are covered:
 
 - Start / Stop Engine .................... Ignition key ON
 - Start / Stop Engine Electricity ........ Ignition key ACC
@@ -138,10 +147,10 @@ All 29 keys.txt functions are covered:
 - Air Horn ............................... Momentary 2
 - Light Horn ............................. Momentary 3
 - Wipers ................................. Wiper selector (3 pos)
-- Wipers Back ............................ Momentary 5
+- Wipers Back ............................ Wiper selector negative (or own button)
 - Cruise Control ......................... Toggle 6
-- Cruise Control Speed Increase .......... Rocker 3 up
-- Cruise Control Speed Decrease .......... Rocker 3 down
+- Cruise Control Speed Increase .......... Cruise knob CW
+- Cruise Control Speed Decrease .......... Cruise knob CCW
 - Dashboard Display Mode ................. Latching 2
 - Open Right Window ...................... Rocker 2 up
 - Close Right Window ..................... Rocker 2 down
@@ -149,12 +158,12 @@ All 29 keys.txt functions are covered:
 - Close Left Window ...................... Rocker 1 down
 - Activate ............................... Momentary 4
 - Trailer Attach / Detach ................ Latching 1
-- Audio Player Volume Up ................. Knob CW
-- Audio Player Volume Down ............... Knob CCW
-- Audio Player Next Favourite ............ Knob push
-- Audio Player Previous Favourite ........ Latching 3
-- Audio Player pause/play ................ NEW button 1 (R6C5)
-- Infomaint display mode ................. NEW button 2 (R6C6)
+- Audio Player Volume Up ................. Radio knob CW
+- Audio Player Volume Down ............... Radio knob CCW
+- Audio Player Next ...................... Momentary 5
+- Audio Player Previous .................. NEW button 1
+- Audio Player pause/play ................ Radio knob push
+- Infomaint display mode ................. NEW button 2
 
 ---
 
@@ -168,26 +177,31 @@ All 29 keys.txt functions are covered:
 |                                                          |
 | [PARK BRAKE PULL]  [TRAILER BRAKE PULL]  <- push/pull   |
 |                                                          |
-| [HORN][AIR][LIGHT HORN] [ACTIVATE][WIPER BACK]           |
+| [HORN][AIR][LIGHT HORN] [ACTIVATE][AUD NEXT]             |
 |                                                          |
-| [R1 WIN UP/DN]  [R2 WIN UP/DN]  [R3 CRUISE + / -]       |
+| [WIN L UP/DN]  [WIN R UP/DN]   [CRUISE KNOB]            |
 |                                                          |
 | [TRAILER ATT] [DASH MODE] [AUD PREV]  <- latching       |
 |                                                          |
-|          [RADIO KNOB]                                    |
+| [RADIO KNOB]            [AUD PREV NEW][INFO NEW]         |
 +----------------------------------------------------------+
 ```
+
+Layouts A/B/C in 05-07 SVG files still show a CRUISE +/- rocker — they
+need to be re-rendered with a cruise knob once the layout is chosen.
 
 ---
 
 ## 5. Open questions before build
 
 1. Ignition key — does START spring back? How many contacts does it have?
-2. Radio knob — does it have a push-to-click switch?
+2. Radio knob — does it have a push-to-click switch? (pause/play depends on it)
 3. Are the wiper/light selectors OK with tap-counting, or should we try
    advanced controls.sii bindings instead?
 4. Final keys must be verified against the actual ETS2 Controls menu.
-5. Do you want AUX as an extra function on one of the spare positions?
-6. NEW: The two new functions (Audio pause/play, Infomaint display mode)
-   need 2 extra physical buttons. Do you have spares, or should the radio
-   knob push take one of them?
+5. Does the wiper selector have a spring-back "negative" position for
+   Wipers Back? If not, Wipers Back needs its own momentary button
+   (would push the matrix over 36 — need to free a position or add one).
+6. Cruise knob — does it have a push? (optional Cruise Resume)
+7. Confirm: 2 extra momentary buttons to buy (R6C5, R6C6). If the radio
+   knob has no push, one more button is needed for pause/play.
