@@ -1,12 +1,35 @@
 # ETS2 Button Box — Shopping List & Bill of Materials (BOM)
 
 Everything needed for the build, split into:
-1. Already owned
-2. To buy (electrical)
-3. To buy (tools)
-4. Decide later / optional
+1. Parts count at a glance
+2. Already owned
+3. To buy (electrical)
+4. To buy (tools)
+5. Decide later / optional
 
 Quantities are based on the mapping in `01 - key to physical button mapping.md`.
+
+---
+
+## 0. Parts count at a glance
+
+| # | Part | Qty |
+|---|---|---|
+| 1 | 3-position rotary selector | 2 |
+| 2 | Toggle switch (on/off) | 6 |
+| 3 | Push/pull switch | 2 |
+| 4 | Rocker switch | 2 (3rd optional spare) |
+| 5 | Momentary push button | 7 (5 owned + 2 to buy) |
+| 6 | Latching push button (used as momentary) | 3 |
+| 7 | Ignition key switch | 1 |
+| 8 | Rotary encoder knob (EC11, with push for radio) | 2 (1 owned + 1 to buy) |
+| 9 | 5 mm LED | 23 |
+| 10 | 330 ohm resistor | 23+ |
+| 11 | 0.1 uF capacitor | 3 |
+| 12 | Raspberry Pi Pico H | 1 |
+| 13 | 74HC595 breakout | 3 |
+
+Total physical switch positions (matrix): 36 of 36 used.
 
 ---
 
