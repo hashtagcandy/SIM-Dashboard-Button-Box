@@ -47,6 +47,7 @@ docs/          Wiring diagrams, ETS2 bindings, measurement notes
 | `prerequisites/07 - layout C - cockpit cluster.svg` | Layout option C (ignition bottom-left) |
 | `prerequisites/08 - layout comparison.md` | Compares the three layouts, recommendation |
 | `prerequisites/09 - shopping list and BOM.md` | Bill of materials: owned / to buy / tools |
+| `prerequisites/10 - keyboard key inventory.md` | Key list, counts, conflicts to fix |
 
 ## Current status
 
