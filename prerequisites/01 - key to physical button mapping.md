@@ -90,8 +90,8 @@ treats as "press to toggle/cycle" fit this perfectly.
 | R3C3 | Momentary 6 | Trailer Attach / Detach | T | yes |
 | R3C4 | Momentary 7 | Audio Player Next | N | yes |
 | R3C5 | Momentary 8 | Audio Player Previous | P | yes |
-| R6C5 | Momentary 9 | Infomaint display mode | I | yes |
-| R6C6 | Momentary 10 | (spare) | - | - |
+| R5C5 | Momentary 9 | Infomaint display mode | I | yes |
+| R5C6 | Momentary 10 | (spare) | - | - |
 
 NOTE: Momentary 6/7/8 use the physical buttons originally bought as
 "latching" — they are simply treated as momentary-style in firmware
@@ -128,21 +128,24 @@ Resume (position R5C3 or a spare if the matrix frees up).
 
 | Matrix | Control | ETS2 function | Key | Behavior |
 |---|---|---|---|---|
-| R5C5 | Key ACC | Start / Stop Engine Electricity | E | tap on entering ACC |
-| R5C6 | Key ON | Start / Stop Engine | E | tap on entering ON |
 | R6C1 | Key START | (engine crank, if present) | E | momentary |
+| R6C2 | Key ACC | Start / Stop Engine Electricity | E | tap on entering ACC |
+| R6C3 | Key ON | Start / Stop Engine | E | tap on entering ON |
 
 NOTE: all three ignition positions send E (ETS2 ignition sequence:
 press E = electricity, press again = engine). See the E/E conflict in
 `10 - keyboard key inventory.md`.
 
+NOTE: ACC, ON and START all sit on row 6 so the ignition key's single
+common lug can wire to one row (see `11 - matrix design.md`).
+
 ### Radio knob (encoder with push)
 
 | Matrix | Control | ETS2 function | Key | Behavior |
 |---|---|---|---|---|
-| R6C2 | Knob CW | Audio Player Volume Up | + | one tap per detent |
-| R6C3 | Knob CCW | Audio Player Volume Down | - | one tap per detent |
-| R6C4 | Knob push | Audio Player pause/play | SPACE | tap on press (if push exists) |
+| R6C4 | Knob CW | Audio Player Volume Up | + | one tap per detent |
+| R6C5 | Knob CCW | Audio Player Volume Down | - | one tap per detent |
+| R6C6 | Knob push | Audio Player pause/play | SPACE | tap on press (if push exists) |
 
 NOTE: SPACE (pause/play) conflicts with Parking Brake (SPACE) — see the
 5 conflicts in `10 - keyboard key inventory.md`.

@@ -48,11 +48,13 @@ docs/          Wiring diagrams, ETS2 bindings, measurement notes
 | `prerequisites/08 - layout comparison.md` | Compares the three layouts, recommendation |
 | `prerequisites/09 - shopping list and BOM.md` | Bill of materials: owned / to buy / tools |
 | `prerequisites/10 - keyboard key inventory.md` | Key list, counts, conflicts to fix |
+| `prerequisites/11 - matrix design.md` | 6x6 matrix wiring design, scan scheme, ignition re-map |
 
 ## Current status
 
 - [x] Key mapping proposed (29 functions -> physical controls)
 - [x] Three panel layout options generated (A/B/C)
+- [x] Matrix design drafted (scan scheme, wiring, ignition re-map approved)
 - [ ] Layout chosen by user
 - [ ] Panel size / enclosure confirmed
 - [ ] Selector & ignition contacts measured with multimeter

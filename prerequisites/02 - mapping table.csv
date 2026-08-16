@@ -27,11 +27,11 @@ R5C1,Rocker 2 up,Open Right Window,hold while pressed,W,yes
 R5C2,Rocker 2 down,Close Right Window,hold while pressed,S,yes
 R5C3,Cruise knob CW,Cruise Control Speed Increase,one tap per detent,=,yes
 R5C4,Cruise knob CCW,Cruise Control Speed Decrease,one tap per detent,-,yes
-R5C5,Ignition ACC,Start / Stop Engine Electricity,one tap on entering ACC,E,yes
-R5C6,Ignition ON,Start / Stop Engine,one tap on entering ON,E,yes
+R5C5,Momentary 9 (NEW),Infomaint display mode,one tap per press,I,yes
+R5C6,Momentary 10 (NEW spare),(spare),-, -,no
 R6C1,Ignition START,Engine crank (if present),momentary,E,yes
-R6C2,Radio knob CW,Audio Player Volume Up,one tap per detent,+,yes
-R6C3,Radio knob CCW,Audio Player Volume Down,one tap per detent,-,yes
-R6C4,Radio knob push,Audio Player pause/play,tap on press,SPACE,yes
-R6C5,Momentary 9 (NEW),Infomaint display mode,one tap per press,I,yes
-R6C6,Momentary 10 (NEW spare),(spare),-, -,no
+R6C2,Ignition ACC,Start / Stop Engine Electricity,one tap on entering ACC,E,yes
+R6C3,Ignition ON,Start / Stop Engine,one tap on entering ON,E,yes
+R6C4,Radio knob CW,Audio Player Volume Up,one tap per detent,+,yes
+R6C5,Radio knob CCW,Audio Player Volume Down,one tap per detent,-,yes
+R6C6,Radio knob push,Audio Player pause/play,tap on press,SPACE,yes

@@ -50,14 +50,14 @@ selector positions all send the "Wipers" cycle key).
 | S | Close Right Window | R5C2 | OK |
 | = | Cruise Speed Increase | R5C3 | OK |
 | - | Cruise Speed Decrease | R5C4 | CONFLICT with Volume Down |
-| E | Engine Electricity | R5C5 | CONFLICT with Engine Start |
-| E | Engine Start | R5C6 | CONFLICT with Engine Electricity |
+| E | Engine Electricity | R6C2 | CONFLICT with Engine Start |
+| E | Engine Start | R6C3 | CONFLICT with Engine Electricity |
 | E | Engine crank (START) | R6C1 | shares key with Engine Start — OK |
-| + | Audio Volume Up | R6C2 | OK |
-| - | Audio Volume Down | R6C3 | CONFLICT with Cruise Decrease |
-| SPACE | Audio pause/play | R6C4 | CONFLICT with Parking Brake |
-| I | Infomaint display mode | R6C5 | CONFLICT with Dashboard |
-| (spare) | - | R6C6 | - |
+| + | Audio Volume Up | R6C4 | OK |
+| - | Audio Volume Down | R6C5 | CONFLICT with Cruise Decrease |
+| SPACE | Audio pause/play | R6C6 | CONFLICT with Parking Brake |
+| I | Infomaint display mode | R5C5 | CONFLICT with Dashboard |
+| (spare) | - | R5C6 | - |
 
 ---
 

@@ -98,7 +98,8 @@ A 6x6 matrix gives:
 6 x 6 = 36 matrix positions
 ```
 
-The project needs about 31 logical switch positions, leaving five spare positions.
+The project needs 31 logical switch positions; the matrix provides 36,
+so one spare position remains (R5C6).
 
 ### Matrix rule
 
@@ -162,36 +163,41 @@ This is the proposed starting map. It should be treated as a logical map until t
 | R1C4 | Lights position 1 |
 | R1C5 | Lights position 2 |
 | R1C6 | Lights position 3 |
-| R2C1 | High beam |
-| R2C2 | AUX |
-| R2C3 | Beacon |
-| R2C4 | Toggle spare / final assignment |
-| R2C5 | Toggle spare / final assignment |
-| R2C6 | Toggle spare / final assignment |
-| R3C1 | Park brake push/pull |
-| R3C2 | Trailer air push/pull |
-| R3C3 | Latching push 1 |
-| R3C4 | Latching push 2 |
-| R3C5 | Latching push 3 |
-| R3C6 | Momentary push 1 |
-| R4C1 | Momentary push 2 |
-| R4C2 | Momentary push 3 |
-| R4C3 | Momentary push 4 |
-| R4C4 | Momentary push 5 |
-| R4C5 | Rocker 1 direction A |
-| R4C6 | Rocker 1 direction B |
-| R5C1 | Rocker 2 direction A |
-| R5C2 | Rocker 2 direction B |
-| R5C3 | Rocker 3 direction A |
-| R5C4 | Rocker 3 direction B |
-| R5C5 | Ignition ACC |
-| R5C6 | Ignition IGN |
+| R2C1 | Toggle 1 High Beam |
+| R2C2 | Toggle 2 Beacon |
+| R2C3 | Toggle 3 Hazard Warning |
+| R2C4 | Toggle 4 Differential Lock |
+| R2C5 | Toggle 5 Lift / Drop Axle |
+| R2C6 | Toggle 6 Cruise Control |
+| R3C1 | Push/pull 1 Parking Brake |
+| R3C2 | Push/pull 2 Trailer Brake |
+| R3C3 | Momentary 6 Trailer Attach (latching body) |
+| R3C4 | Momentary 7 Audio Next (latching body) |
+| R3C5 | Momentary 8 Audio Previous (latching body) |
+| R3C6 | Momentary 1 Horn |
+| R4C1 | Momentary 2 Air Horn |
+| R4C2 | Momentary 3 Light Horn |
+| R4C3 | Momentary 4 Dashboard Display |
+| R4C4 | Momentary 5 Activate |
+| R4C5 | Rocker 1 up Open Left Window |
+| R4C6 | Rocker 1 down Close Left Window |
+| R5C1 | Rocker 2 up Open Right Window |
+| R5C2 | Rocker 2 down Close Right Window |
+| R5C3 | Cruise knob CW (speed +) |
+| R5C4 | Cruise knob CCW (speed -) |
+| R5C5 | Momentary 9 Infomaint display |
+| R5C6 | Spare |
 | R6C1 | Ignition START |
-| R6C2 | Radio encoder A |
-| R6C3 | Radio encoder B |
-| R6C4 | Spare |
-| R6C5 | Spare |
-| R6C6 | Spare |
+| R6C2 | Ignition ACC |
+| R6C3 | Ignition ON |
+| R6C4 | Radio knob CW (volume +) |
+| R6C5 | Radio knob CCW (volume -) |
+| R6C6 | Radio knob push (pause/play) |
+
+IGNITION NOTE: ACC, ON and START all sit on row 6 because a typical
+ignition key has ONE common lug shared by all positions — it can only
+wire to one row. Do not split the ignition across rows (see
+`prerequisites/11 - matrix design.md`).
 
 ### Three-position selector warning
 
