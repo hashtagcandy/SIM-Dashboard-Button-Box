@@ -3,8 +3,10 @@
 Source file: `rough idea of keys.txt` (31 functions)
 Control names verified against: `ATS and ETS2 Key Bindings.xlsx`
 
-Status: PROPOSAL — nothing is soldered yet. Verify keys in the ETS2
-Controls menu before finalizing (column "Key" = suggested default only).
+Status: PROPOSAL — nothing is soldered yet. Keys below are the ACTUAL
+keys the user will use (from `02 - mapping table.csv`). Verify keys in
+the ETS2 Controls menu before finalizing; any change must be made in
+`02 - mapping table.csv` first, then this file.
 
 ---
 
@@ -30,14 +32,18 @@ Total matrix positions used: 36 of 36 (full matrix — no spares left).
 
 ### Selectors (3-position, one tap per state change)
 
-| Matrix | Control | ETS2 function | Behavior |
-|---|---|---|---|
-| R1C1 | Wiper selector pos 1 | Wipers OFF | tap key to reach OFF |
-| R1C2 | Wiper selector pos 2 | Wipers NORMAL | tap key to reach NORMAL |
-| R1C3 | Wiper selector pos 3 | Wipers FAST | tap key to reach FAST |
-| R1C4 | Light selector pos 1 | Lights OFF | tap key to reach OFF |
-| R1C5 | Light selector pos 2 | Lights PARKING | tap key to reach PARKING |
-| R1C6 | Light selector pos 3 | Lights LOW BEAM | tap key to reach LOW BEAM |
+All three positions send the same cycle key; firmware counts taps to
+reach the selected state (off->normal = 1 tap, off->fast = 2 taps,
+fast->off = 3 taps, etc.).
+
+| Matrix | Control | ETS2 function | Key | Behavior |
+|---|---|---|---|---|
+| R1C1 | Wiper selector pos 1 | Wipers OFF | P | tap key to reach OFF |
+| R1C2 | Wiper selector pos 2 | Wipers NORMAL | P | tap key to reach NORMAL |
+| R1C3 | Wiper selector pos 3 | Wipers FAST | P | tap key to reach FAST |
+| R1C4 | Light selector pos 1 | Lights OFF | L | tap key to reach OFF |
+| R1C5 | Light selector pos 2 | Lights PARKING | L | tap key to reach PARKING |
+| R1C6 | Light selector pos 3 | Lights LOW BEAM | L | tap key to reach LOW BEAM |
 
 NOTE: ETS2 "Wipers" and "Light Modes" are CYCLE keys (one press = next
 state). Firmware must count taps: off->normal = 1 tap, off->fast = 2 taps,
@@ -50,7 +56,7 @@ own momentary button — see open question 5.
 
 ### Toggles (6) — one tap per state change
 
-| Matrix | Control | ETS2 function | Suggested key | Verify |
+| Matrix | Control | ETS2 function | Key | Verify |
 |---|---|---|---|---|
 | R2C1 | Toggle 1 | High Beam Headlights | K | yes |
 | R2C2 | Toggle 2 | Beacon | U | yes |
@@ -64,7 +70,7 @@ cruise knob below.
 
 ### Push/pull (2) — one tap per state change
 
-| Matrix | Control | ETS2 function | Suggested key | Verify |
+| Matrix | Control | ETS2 function | Key | Verify |
 |---|---|---|---|---|
 | R3C1 | Push/pull 1 | Parking Brake | SPACE | yes |
 | R3C2 | Push/pull 2 | Trailer Brake | 7 | yes |
@@ -74,7 +80,7 @@ cruise knob below.
 All momentary-style: press = one tap of the key. Functions that ETS2
 treats as "press to toggle/cycle" fit this perfectly.
 
-| Matrix | Control | ETS2 function | Suggested key | Verify |
+| Matrix | Control | ETS2 function | Key | Verify |
 |---|---|---|---|---|
 | R3C6 | Momentary 1 | Horn | H | yes |
 | R4C1 | Momentary 2 | Air Horn | V | yes |
@@ -92,9 +98,13 @@ NOTE: Momentary 6/7/8 use the physical buttons originally bought as
 (one tap per press, ignore the latching state). No extra purchases
 beyond the 2 new buttons.
 
+NOTE: Momentary 8 (P) and Momentary 4 (I) share keys with the Wipers (P)
+and Infomaint (I) — see the 5 conflicts in `10 - keyboard key inventory.md`.
+The firmware must be built with the RESOLVED key map, not this raw list.
+
 ### Rockers (2 of 3 used) — hold while pressed
 
-| Matrix | Control | ETS2 function | Suggested key | Verify |
+| Matrix | Control | ETS2 function | Key | Verify |
 |---|---|---|---|---|
 | R4C5 | Rocker 1 up | Open Left Window | Q | yes |
 | R4C6 | Rocker 1 down | Close Left Window | A | yes |
@@ -106,29 +116,36 @@ the cruise knob. The rocker itself becomes a spare physical control.
 
 ### Cruise knob (encoder) — like a second volume knob
 
-| Matrix | Control | ETS2 function | Behavior |
-|---|---|---|---|
-| R5C3 | Cruise knob CW | Cruise Control Speed Increase | one tap per detent |
-| R5C4 | Cruise knob CCW | Cruise Control Speed Decrease | one tap per detent |
+| Matrix | Control | ETS2 function | Key | Behavior |
+|---|---|---|---|---|
+| R5C3 | Cruise knob CW | Cruise Control Speed Increase | = | one tap per detent |
+| R5C4 | Cruise knob CCW | Cruise Control Speed Decrease | - | one tap per detent |
 
 Optional: if the cruise knob also has a push, use it for Cruise Control
 Resume (position R5C3 or a spare if the matrix frees up).
 
 ### Ignition key (3 positions)
 
-| Matrix | Control | ETS2 function | Behavior |
-|---|---|---|---|
-| R5C5 | Key ACC | Start / Stop Engine Electricity | tap on entering ACC |
-| R5C6 | Key ON | Start / Stop Engine | tap on entering ON |
-| R6C1 | Key START | (engine crank, if present) | momentary |
+| Matrix | Control | ETS2 function | Key | Behavior |
+|---|---|---|---|---|
+| R5C5 | Key ACC | Start / Stop Engine Electricity | E | tap on entering ACC |
+| R5C6 | Key ON | Start / Stop Engine | E | tap on entering ON |
+| R6C1 | Key START | (engine crank, if present) | E | momentary |
+
+NOTE: all three ignition positions send E (ETS2 ignition sequence:
+press E = electricity, press again = engine). See the E/E conflict in
+`10 - keyboard key inventory.md`.
 
 ### Radio knob (encoder with push)
 
-| Matrix | Control | ETS2 function | Behavior |
-|---|---|---|---|
-| R6C2 | Knob CW | Audio Player Volume Up | one tap per detent |
-| R6C3 | Knob CCW | Audio Player Volume Down | one tap per detent |
-| R6C4 | Knob push | Audio Player pause/play | tap on press (if push exists) |
+| Matrix | Control | ETS2 function | Key | Behavior |
+|---|---|---|---|---|
+| R6C2 | Knob CW | Audio Player Volume Up | + | one tap per detent |
+| R6C3 | Knob CCW | Audio Player Volume Down | - | one tap per detent |
+| R6C4 | Knob push | Audio Player pause/play | SPACE | tap on press (if push exists) |
+
+NOTE: SPACE (pause/play) conflicts with Parking Brake (SPACE) — see the
+5 conflicts in `10 - keyboard key inventory.md`.
 
 ---
 
@@ -136,37 +153,43 @@ Resume (position R5C3 or a spare if the matrix frees up).
 
 All 31 keys.txt functions are covered:
 
-- Start / Stop Engine .................... Ignition key ON
-- Start / Stop Engine Electricity ........ Ignition key ACC
-- Parking Brake .......................... Push/pull 1
-- Trailer Brake .......................... Push/pull 2
-- Lift / Drop Axle ....................... Toggle 5
-- Differential Lock ...................... Toggle 4
-- Hazard Warning ......................... Toggle 3
-- Light Modes ............................ Light selector (3 pos)
-- High Beam Headlights ................... Toggle 1
-- Beacon ................................. Toggle 2
-- Horn ................................... Momentary 1
-- Air Horn ............................... Momentary 2
-- Light Horn ............................. Momentary 3
-- Wipers ................................. Wiper selector (3 pos)
+- Start / Stop Engine .................... Ignition key ON (E)
+- Start / Stop Engine Electricity ........ Ignition key ACC (E)
+- Parking Brake .......................... Push/pull 1 (SPACE)
+- Trailer Brake .......................... Push/pull 2 (7)
+- Lift / Drop Axle ....................... Toggle 5 (J)
+- Differential Lock ...................... Toggle 4 (D)
+- Hazard Warning ......................... Toggle 3 (F)
+- Light Modes ............................ Light selector (L, 3 pos)
+- High Beam Headlights ................... Toggle 1 (K)
+- Beacon ................................. Toggle 2 (U)
+- Horn ................................... Momentary 1 (H)
+- Air Horn ............................... Momentary 2 (V)
+- Light Horn ............................. Momentary 3 (B)
+- Wipers ................................. Wiper selector (P, 3 pos)
 - Wipers Back ............................ Wiper selector negative (or own button)
-- Cruise Control ......................... Toggle 6
-- Cruise Control Speed Increase .......... Cruise knob CW
-- Cruise Control Speed Decrease .......... Cruise knob CCW
-- Dashboard Display Mode ................. Momentary 4
-- Open Right Window ...................... Rocker 2 up
-- Close Right Window ..................... Rocker 2 down
-- Open Left Window ....................... Rocker 1 up
-- Close Left Window ...................... Rocker 1 down
-- Activate ............................... Momentary 5
-- Trailer Attach / Detach ................ Momentary 6
-- Audio Player Volume Up ................. Radio knob CW
-- Audio Player Volume Down ............... Radio knob CCW
-- Audio Player Next ...................... Momentary 7
-- Audio Player Previous .................. Momentary 8
-- Audio Player pause/play ................ Radio knob push
-- Infomaint display mode ................. Momentary 9
+- Cruise Control ......................... Toggle 6 (C)
+- Cruise Control Speed Increase .......... Cruise knob CW (=)
+- Cruise Control Speed Decrease .......... Cruise knob CCW (-)
+- Dashboard Display Mode ................. Momentary 4 (I)
+- Open Right Window ...................... Rocker 2 up (W)
+- Close Right Window ..................... Rocker 2 down (S)
+- Open Left Window ....................... Rocker 1 up (Q)
+- Close Left Window ...................... Rocker 1 down (A)
+- Activate ............................... Momentary 5 (ENTER)
+- Trailer Attach / Detach ................ Momentary 6 (T)
+- Audio Player Volume Up ................. Radio knob CW (+)
+- Audio Player Volume Down ............... Radio knob CCW (-)
+- Audio Player Next ...................... Momentary 7 (N)
+- Audio Player Previous .................. Momentary 8 (P)
+- Audio Player pause/play ................ Radio knob push (SPACE)
+- Infomaint display mode ................. Momentary 9 (I)
+
+CONFLICT NOTE: 5 keys are currently shared between two functions
+(P = Wipers/Audio Previous, SPACE = Parking Brake/pause-play,
+I = Dashboard/Infomaint, - = Cruise Decrease/Volume Down,
+E = Electricity/Engine Start). See `10 - keyboard key inventory.md`
+for the resolved final key map (0, 9, G, 8, Shift+E).
 
 ---
 
@@ -210,3 +233,5 @@ need to be re-rendered with a cruise knob once the layout is chosen.
 7. Confirm: 2 extra momentary buttons to buy (R6C5 = Momentary 9
    Infomaint, R6C6 = Momentary 10 spare). If the radio knob has no push,
    one more button is needed for pause/play.
+8. Resolve the 5 key conflicts (see `10 - keyboard key inventory.md`)
+   before writing firmware: P, SPACE, I, -, E.
