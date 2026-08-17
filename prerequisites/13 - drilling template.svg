@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="685" viewBox="0 0 1300 685">
+<rect x="0" y="0" width="1300" height="685" fill="#ffffff"/>
+<rect x="2" y="2" width="1296" height="681" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="8,4"/>
+<text x="650" y="18" font-family="Segoe UI,Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#111">ETS2 BUTTON BOX - DRILLING TEMPLATE (1:1, print at 100% scale)</text>
+<text x="650" y="34" font-family="Segoe UI,Arial" font-size="11" text-anchor="middle" fill="#555">Panel 650 x 342 mm - all dimensions in mm from top-left corner - hole centers shown</text>
+<line x1="0.0" y1="40" x2="0.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="100.0" y1="40" x2="100.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="200.0" y1="40" x2="200.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="300.0" y1="40" x2="300.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="400.0" y1="40" x2="400.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="500.0" y1="40" x2="500.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="600.0" y1="40" x2="600.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="700.0" y1="40" x2="700.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="800.0" y1="40" x2="800.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="900.0" y1="40" x2="900.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="1000.0" y1="40" x2="1000.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="1100.0" y1="40" x2="1100.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="1200.0" y1="40" x2="1200.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="1300.0" y1="40" x2="1300.0" y2="675.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="40.0" x2="1300.0" y2="40.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="140.0" x2="1300.0" y2="140.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="240.0" x2="1300.0" y2="240.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="340.0" x2="1300.0" y2="340.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="440.0" x2="1300.0" y2="440.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="540.0" x2="1300.0" y2="540.0" stroke="#ddd" stroke-width="0.5"/>
+<line x1="0" y1="640.0" x2="1300.0" y2="640.0" stroke="#ddd" stroke-width="0.5"/>
+<circle cx="70.0" cy="136.0" r="20.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="70.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="70.0" y="110.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">LIGHT MODES selector</text>
+<text x="70.0" y="166.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">3-pos  d20</text>
+<text x="94.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(35,48)</text>
+<circle cx="70.0" cy="266.0" r="20.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="70.0" cy="266.0" r="1.2" fill="#c00"/>
+<text x="70.0" y="240.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">WIPERS selector</text>
+<text x="70.0" y="296.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">3-pos  d20</text>
+<text x="94.0" y="266.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(35,113)</text>
+<circle cx="70.0" cy="396.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="70.0" cy="396.0" r="1.2" fill="#c00"/>
+<text x="70.0" y="378.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">WIPERS BACK</text>
+<text x="70.0" y="418.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">MOM  d12</text>
+<text x="86.0" y="396.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(35,178)</text>
+<circle cx="70.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="70.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="70.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">DISPLAY MODE</text>
+<text x="70.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">MOM 4  d12</text>
+<text x="86.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(35,233)</text>
+<circle cx="70.0" cy="656.0" r="19.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="70.0" cy="656.0" r="1.2" fill="#c00"/>
+<text x="70.0" y="631.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">IGNITION</text>
+<text x="70.0" y="685.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">ACC/ON/START  d19</text>
+<text x="93.0" y="656.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(35,308)</text>
+<circle cx="260.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="260.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="260.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">HIGH BEAM</text>
+<text x="260.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T1  d12</text>
+<text x="276.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(130,48)</text>
+<circle cx="370.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="370.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="370.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">BEACON</text>
+<text x="370.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T2  d12</text>
+<text x="386.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(185,48)</text>
+<circle cx="480.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="480.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="480.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">HAZARD</text>
+<text x="480.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T3  d12</text>
+<text x="496.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(240,48)</text>
+<circle cx="590.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="590.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="590.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">DIFFERENTIAL</text>
+<text x="590.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T4  d12</text>
+<text x="606.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(295,48)</text>
+<circle cx="700.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="700.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="700.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">AXLE</text>
+<text x="700.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T5  d12</text>
+<text x="716.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(350,48)</text>
+<circle cx="810.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="810.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="810.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">CRUISE</text>
+<text x="810.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">T6  d12</text>
+<text x="826.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(405,48)</text>
+<circle cx="1060.0" cy="136.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1060.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="1060.0" y="118.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">HORN</text>
+<text x="1060.0" y="158.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M1  d12</text>
+<text x="1076.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(530,48)</text>
+<circle cx="1060.0" cy="266.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1060.0" cy="266.0" r="1.2" fill="#c00"/>
+<text x="1060.0" y="248.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">AIR HORN</text>
+<text x="1060.0" y="288.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M2  d12</text>
+<text x="1076.0" y="266.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(530,113)</text>
+<circle cx="1060.0" cy="396.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1060.0" cy="396.0" r="1.2" fill="#c00"/>
+<text x="1060.0" y="378.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">LIGHT HORN</text>
+<text x="1060.0" y="418.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M3  d12</text>
+<text x="1076.0" y="396.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(530,178)</text>
+<rect x="1211.0" y="123.0" width="38.0" height="26.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1230.0" cy="136.0" r="1.2" fill="#c00"/>
+<text x="1230.0" y="111.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">LEFT WINDOW</text>
+<text x="1230.0" y="165.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">R1 up/down  d19</text>
+<text x="1253.0" y="136.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(615,48)</text>
+<rect x="1211.0" y="273.0" width="38.0" height="26.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1230.0" cy="286.0" r="1.2" fill="#c00"/>
+<text x="1230.0" y="261.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">RIGHT WINDOW</text>
+<text x="1230.0" y="315.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">R2 up/down  d19</text>
+<text x="1253.0" y="286.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(615,123)</text>
+<circle cx="260.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="260.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="260.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">ACTIVATE</text>
+<text x="260.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M5  d12</text>
+<text x="276.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(130,233)</text>
+<circle cx="370.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="370.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="370.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">TRAILER ATTACH</text>
+<text x="370.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M6  d12</text>
+<text x="386.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(185,233)</text>
+<circle cx="480.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="480.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="480.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">INFOMAINT</text>
+<text x="480.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M9  d12</text>
+<text x="496.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(240,233)</text>
+<circle cx="630.0" cy="506.0" r="10.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="630.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="630.0" y="490.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">CRUISE KNOB</text>
+<text x="630.0" y="526.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">EC11 dec/inc  d10</text>
+<text x="644.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(315,233)</text>
+<circle cx="800.0" cy="506.0" r="10.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="800.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="800.0" y="490.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">RADIO KNOB</text>
+<text x="800.0" y="526.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">EC11 vol+push  d10</text>
+<text x="814.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(400,233)</text>
+<circle cx="930.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="930.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="930.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">AUD PREV</text>
+<text x="930.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M8  d12</text>
+<text x="946.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(465,233)</text>
+<circle cx="1040.0" cy="506.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="1040.0" cy="506.0" r="1.2" fill="#c00"/>
+<text x="1040.0" y="488.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">AUD NEXT</text>
+<text x="1040.0" y="528.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">M7  d12</text>
+<text x="1056.0" y="506.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(520,233)</text>
+<circle cx="390.0" cy="656.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="390.0" cy="656.0" r="1.2" fill="#c00"/>
+<text x="390.0" y="638.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">PARKING BRAKE</text>
+<text x="390.0" y="678.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">PUSH/PULL 1  d12</text>
+<text x="406.0" y="656.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(195,308)</text>
+<circle cx="520.0" cy="656.0" r="12.0" fill="#fff" stroke="#c00" stroke-width="1.5"/>
+<circle cx="520.0" cy="656.0" r="1.2" fill="#c00"/>
+<text x="520.0" y="638.0" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#111">TRAILER BRAKE</text>
+<text x="520.0" y="678.0" font-family="Segoe UI,Arial" font-size="7" text-anchor="middle" fill="#666">PUSH/PULL 2  d12</text>
+<text x="536.0" y="656.0" font-family="Consolas,monospace" font-size="6.5" fill="#a00">(260,308)</text>
+<circle cx="50.0" cy="106.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="50.0" y="102.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED1</text>
+<circle cx="70.0" cy="106.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="70.0" y="102.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED2</text>
+<circle cx="90.0" cy="106.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="90.0" y="102.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED3</text>
+<circle cx="50.0" cy="236.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="50.0" y="232.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED4</text>
+<circle cx="70.0" cy="236.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="70.0" y="232.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED5</text>
+<circle cx="90.0" cy="236.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="90.0" y="232.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED6</text>
+<circle cx="260.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="260.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED7</text>
+<circle cx="370.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="370.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED8</text>
+<circle cx="480.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="480.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED9</text>
+<circle cx="590.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="590.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED10</text>
+<circle cx="700.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="700.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED11</text>
+<circle cx="810.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="810.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED12</text>
+<circle cx="360.0" cy="626.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="360.0" y="622.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED13</text>
+<circle cx="490.0" cy="626.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="490.0" y="622.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED14</text>
+<circle cx="70.0" cy="356.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="70.0" y="352.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED15</text>
+<circle cx="70.0" cy="466.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="70.0" y="462.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED16</text>
+<circle cx="260.0" cy="466.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="260.0" y="462.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED17</text>
+<circle cx="370.0" cy="466.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="370.0" y="462.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED18</text>
+<circle cx="480.0" cy="466.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="480.0" y="462.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED19</text>
+<circle cx="1060.0" cy="96.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="1060.0" y="92.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED20</text>
+<circle cx="1060.0" cy="226.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="1060.0" y="222.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED21</text>
+<circle cx="1060.0" cy="356.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="1060.0" y="352.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED22</text>
+<circle cx="70.0" cy="616.0" r="5.0" fill="#ffd" stroke="#f80" stroke-width="1.2"/>
+<text x="70.0" y="612.0" font-family="Segoe UI,Arial" font-size="6" text-anchor="middle" fill="#b50">LED23</text>
+<line x1="30.0" y1="741.0" x2="1330.0" y2="741.0" stroke="#06c" stroke-width="1"/>
+<line x1="30.0" y1="737.0" x2="30.0" y2="745.0" stroke="#06c" stroke-width="1"/>
+<line x1="1330.0" y1="737.0" x2="1330.0" y2="745.0" stroke="#06c" stroke-width="1"/>
+<text x="680.0" y="736.0" font-family="Segoe UI,Arial" font-size="9" text-anchor="middle" fill="#06c">650 mm</text>
+<line x1="1316.0" y1="54.0" x2="1316.0" y2="739.0" stroke="#06c" stroke-width="1"/>
+<line x1="1312.0" y1="54.0" x2="1320.0" y2="54.0" stroke="#06c" stroke-width="1"/>
+<line x1="1312.0" y1="739.0" x2="1320.0" y2="739.0" stroke="#06c" stroke-width="1"/>
+<text x="1321.0" y="396.5" font-family="Segoe UI,Arial" font-size="9" fill="#06c" transform="rotate(90 1321.0 396.5)">342 mm</text>
+<text x="650" y="683" font-family="Segoe UI,Arial" font-size="8" text-anchor="middle" fill="#888">Red = control holes. Orange = 5mm LEDs. Coordinates = center in mm from top-left. Print at 100%, no scaling.</text>
+</svg>

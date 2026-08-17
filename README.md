@@ -49,12 +49,15 @@ docs/          Wiring diagrams, ETS2 bindings, measurement notes
 | `prerequisites/09 - shopping list and BOM.md` | Bill of materials: owned / to buy / tools |
 | `prerequisites/10 - keyboard key inventory.md` | Key list, counts, conflicts to fix |
 | `prerequisites/11 - matrix design.md` | 6x6 matrix wiring design, scan scheme, ignition re-map |
+| `prerequisites/12 - box measurements.md` | Panel size, hole sizes, all hole center coordinates (mm) |
+| `prerequisites/13 - drilling template.svg` | Printable 1:1 drilling template with every hole |
 
 ## Current status
 
 - [x] Key mapping proposed (29 functions -> physical controls)
 - [x] Three panel layout options generated (A/B/C)
 - [x] Matrix design drafted (scan scheme, wiring, ignition re-map approved)
+- [x] Box measurements + 1:1 drilling template generated (650 x 342 mm panel)
 - [ ] Layout chosen by user
 - [ ] Panel size / enclosure confirmed
 - [ ] Selector & ignition contacts measured with multimeter
